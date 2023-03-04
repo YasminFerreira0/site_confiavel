@@ -1,0 +1,31 @@
+body {
+    background-image: url(./images/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -50px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-inicial {
+    border: 5px solid #ffffff;
+    border-radius: 30px;
+    padding: 20px 60px;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ff00ff;
+    animation: disco 0.3s infinite;
+}
+@keyframes disco {
+    0% { background-color: #ff00ff; }
+    25% {background-color: #00FF00; }
+    50% { background-color: #00ffff; } 
+    75% {background-color: #FFFF00; }
+    100% { background-color: #ff00ff; } 
+}
