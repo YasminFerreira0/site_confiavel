@@ -1,4 +1,9 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pagina-de-click {
     background-image: url(./images/background.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,6 +14,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+
+    display: none;
 }
 
 .botao-inicial {
@@ -29,3 +37,81 @@ body {
     75% {background-color: #FFFF00; }
     100% { background-color: #ff00ff; } 
 }
+
+.feliz-aniversario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/background2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110vw;
+    height: 110vh;
+
+}
+
+.img-windows {
+    width: 70px;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+.img-lixo {
+    width: 60px;
+    position: absolute;
+    right: 1%;
+    bottom: 2%;
+}
+
+.img-dinosauro {
+    width: 200px;
+    position: absolute;
+    left: 15%;
+    bottom: -1%;
+}
+
+.img-baloesA {
+    width: 80vw;
+    position: absolute;
+    right: 16%;
+    top: 5%;
+
+}
+
+.img-sapo {
+    width: 150px;
+    position: absolute;
+    right: -2%;
+    bottom: 13%;
+}
+
+.balao-coracao {
+    width: 80px;
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+}
+
+.rosquinha {
+    width: 70px;
+    position: absolute;
+    right: 2%;
+    top: 4%;
+}
+.bolo {
+    width: 200px;
+    position: absolute;
+    left: 25%;
+    bottom: 25%;
+}
+
+.desoito{
+    width: 100px;
+    position: absolute;
+    left: 2%;
+    bottom: 30%;
+}
+
+
