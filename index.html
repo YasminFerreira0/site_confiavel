@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="pagina-de-click">
+    <div class="pagina-de-click" id="div1">
         <button onclick="showDiv2()" class="botao-inicial">CLICK AQUI</button>
     </div>
 
-    <div class="feliz-aniversario">
+    <div class="feliz-aniversario" id="div2" style="display: none;">
+
         <img class="img-windows" src="images/windows.png" alt="">
         <img class="img-lixo" src="images/trash.png" alt="">
         <img class="img-dinosauro" src="images/metalgreymon.gif" alt="">
@@ -22,8 +23,13 @@
         <img class="rosquinha" src="images/2igP.gif" alt="">
         <img class="bolo" src="images/bolo.gif" alt="">
         <img class="desoito" src="images/18th-birthday-71.gif" alt="">
+
     </div>
 
+    <div class="carregando" id="loader" style="display:none">
+        <img class="carregando-img" src="images/agumon.gif" alt="">
+    </div>
 
+<script src="main.js"></script>
 </body>
 </html>

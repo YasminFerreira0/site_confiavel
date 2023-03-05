@@ -14,9 +14,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
-    display: none;
 }
 
 .botao-inicial {
@@ -48,7 +45,6 @@
     background-size: cover;
     width: 110vw;
     height: 110vh;
-
 }
 
 .img-windows {
@@ -114,4 +110,10 @@
     bottom: 30%;
 }
 
+.carregando-img {
+    width: 200px;
+    position: absolute;
+    left: 28%;
+    top: 40%;
+}
 
