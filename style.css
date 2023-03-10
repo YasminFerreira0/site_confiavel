@@ -117,3 +117,82 @@
     top: 40%;
 }
 
+@media screen and (min-width: 600px) {
+
+    .pagina-de-click {
+        background-image: url(./images/fotos\ tumblr\ -\ Buscar\ con\ Google.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 110vw;
+        height: 110vh;
+    }
+
+    .img-windows {
+        width: 110px;
+        position: absolute;
+        left: 3%;
+        top: 3%;
+    }
+
+    .img-lixo {
+        width: 100px;
+        position: absolute;
+        right: 3%;
+        bottom: 5%;
+    }
+
+    .img-dinosauro {
+        width: 350px;
+        position: absolute;
+        left: 10%;
+        bottom: 2%;
+    }
+
+    .img-baloesA {
+        width: 50vw;
+        position: absolute;
+        right: 25%;
+        top: -10%;
+    }
+
+    .img-sapo {
+        width: 250px;
+        position: absolute;
+        right: 5%;
+        bottom: 30%;
+    }
+
+    .balao-coracao {
+        width: 100px;
+        position: absolute;
+        left: 2%;
+        bottom: 1%;
+    }
+
+    .rosquinha {
+        width: 100px;
+        position: absolute;
+        right: 4%;
+        top: 2%;
+    }
+    .bolo {
+        width: 300px;
+        position: absolute;
+        left: 40%;
+        bottom: 10%;
+    }
+
+    .desoito{
+        width: 150px;
+        position: absolute;
+        left: 2%;
+        bottom: 38%;
+    }
+
+    .carregando-img {
+        width: 400px;
+        position: absolute;
+        left: 40%;
+        top: 40%;
+    }
+}
